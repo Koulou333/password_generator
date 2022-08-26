@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300;400;500&family=Roboto:wght@500&family=Shrikhand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+::selection{
+    background-color: aqua;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: gold;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 350px;
+    border: 1px solid black;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.passwordBox {
+    padding: 0 10px;
+}
+
+input {
+    width: 100%;
+    letter-spacing: 3px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    outline: 0;
+    border: 1px solid black;
+}
+
+.buttons {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ button {
+    text-transform: capitalize;
+    padding: 10px;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+ }
+
+ button:first-child {
+    color: black;
+    background-color: gold;
+    width: 69%;
+ }
+
+ button:last-child {
+    color: black;
+    background-color: whitesmoke; 
+    width: 28%;
+ }
